@@ -25,4 +25,4 @@ The current build of the Pixel Experience 10 rom contains a bug that causes com.
 10-18 20:59:22.167   599 16650 E ashmem  : Failed to dlopen() libashmemd_client.so: dlopen failed: library "libashmemd_client.so" not found
 ```
 
-It's simply due to some libraries being missing underneathe of ```/system/apex/com.android.media/lib64``` and ```/system/apex/com.android.media.swcodec/lib64```. This module just copies them over on boot.
+It's simply due to the ```libashmemd_client.so``` and ```ashmemd_aidl_interface-cpp.so``` libraries being missing underneathe of ```/system/apex/com.android.media/lib64``` and ```/system/apex/com.android.media.swcodec/lib64```. This module just copies them over on boot.
