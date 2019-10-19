@@ -1,0 +1,6 @@
+id=ashmemfixer
+name=Ashmem Fix for the Nexus 6p
+version=v1
+versionCode=1
+author=snaphat@gmail.com
+description=This Module fixes missing ashmem libraries used by com.android.media* on the Nexus 6p running the Android Q Pixel Experience Rom. These are included with the rom but not in the path.
